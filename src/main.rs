@@ -20,9 +20,9 @@ fn main() {
     }
     println!("{}", pi.to_string());
     if std::f64::consts::PI < pi { //this block calculates the accuracy of the answer.
-        println!("{} %", std::f64::consts::PI / pi * 100.0);
+        println!("{}%", std::f64::consts::PI / pi * 100.0);
     }else {
-        println!("{} %", pi / std::f64::consts::PI * 100.0);
+        println!("{}%", pi / std::f64::consts::PI * 100.0);
     }
     let elapsed = now.elapsed();
     println!("{:.2?}", elapsed);
