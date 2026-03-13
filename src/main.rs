@@ -4,7 +4,7 @@ fn main() {
     use std::io;
     use std::time::Instant;
     let mut pi: f64 = 4.0;
-    println!("How many times do you want it to calculate? Every 100.000.000 is about one second of processing time. Only type even numbers.");
+    println!("How many times do you want it to calculate? Every 100.000.000 is about one second of processing time on my fairly low-end pc. Only type even numbers.");
     let mut input = String::new();
     io::stdin().read_line(&mut input).unwrap();
     let input_i32: i32 = input.trim().parse::<i32>().expect("REASON");
